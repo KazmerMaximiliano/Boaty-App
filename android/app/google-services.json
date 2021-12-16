@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "240182239829",
+    "project_id": "boaty-b697f",
+    "storage_bucket": "boaty-b697f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240182239829:android:96ddbcfb3c754f8f766adc",
+        "android_client_info": {
+          "package_name": "com.app.boaty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240182239829-0cu3stm2kihqa1nu793uic5637etokri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.boaty",
+            "certificate_hash": "97fbc10413a4bc88a20eb32ef4ac1ca87103581b"
+          }
+        },
+        {
+          "client_id": "240182239829-3g3fpii699603bl64kl2rid3pmvs51ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-RtXDsHGQ51V7O53og8MyCE0a-JPkSuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240182239829-3g3fpii699603bl64kl2rid3pmvs51ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.boaty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

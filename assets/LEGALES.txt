@@ -1,0 +1,454 @@
+﻿Terminos y Condiciones
+
+1. Aceptación del Acuerdo de Términos de Uso.
+Al crear un usuario o logearte en Boaty, ya sea a través de un dispositivo
+móvil, aplicación móvil o computadora, aceptas estar sujeto a los presentes Términos
+y Condiciones, a nuestras Reglas de la Comunidad, y a nuestras Políticas de Privacidad
+y de Seguridad. De no aceptarse los presentes Términos y Condiciones, no podrás ingresar
+a la aplicación.
+Asimismo, los presentes términos y condiciones podrán sufrir modificaciones y/o
+actualizaciones, del mismo modo que el servicio brindado puede ser también actualizado.
+Cualquier modificación a las presentes políticas y/o actualización del servicio brindado
+por Boaty le será debidamente notificado a sus usuarios.
+La versión más reciente de este Acuerdo se publicará en el Servicio en Configuración y
+también en https://www.boatyapp.com, siendo deber del usuario verificar regularmente
+la versión más reciente. Si los cambios introducidos incluyen cambios materiales que
+afectan tus derechos u obligaciones, te notificaremos los cambios con anticipación por
+medios razonables, que podrían incluir notificaciones a través del Servicio o por correo
+electrónico. Si continúas utilizando el Servicio después de que los cambios entren en
+vigencia, se entenderá que aceptas las modificaciones y/o actualizaciones introducidas.
+
+2. Creación de un usuario
+Únicamente pueden crear un usuario o iniciar sesión en Boaty a través de Facebook o Google, las personas mayores de dieciocho años con capacidad para contratar en los términos del Código Civil y Comercial de la Nación.
+Estará prohibido la creación de perfiles a aquellas personas que posean antecedentes
+penales vinculados con delitos de índole civil y comercial.
+Al crear un perfil en Boaty, cada usuario se compromete a cumplir con los presentes
+Términos y Condiciones y con todas las leyes, normas y reglamentos locales, estatales,
+nacionales e internacionales aplicables.
+
+3. Acceso a la aplicación.
+Para utilizar Boaty, puedes iniciar sesión creando un nuevo usuario y perfil, o
+bien a través de tu inicio de sesión de Facebook o Google. Si lo haces, nos autorizas a acceder y usar cierta información de la cuenta de Facebook o Google que incluye, entre otros, tu perfil público e información sobre amigos que comparten en común con otros usuarios de Boaty que han dado permiso a Facebook o Google para usar tus datos personales o información. Para obtener más información sobre la información y datos personales que recopilamos y cómo la usamos, consulta nuestra Política de Privacidad.
+
+4. Modificación del servicio y Terminación.
+Boaty siempre se esfuerza por mejorar el Servicio y brindarte funcionalidades
+adicionales que encontrarás interesantes y útiles. Esto significa que podemos agregar
+nuevas funciones o mejoras de productos de vez en cuando, así cómo eliminar algunas
+funciones. Incluso podemos suspender el Servicio por completo, en cuyo caso te
+notificaremos con anticipación a menos que circunstancias atenuantes, como problemas
+de seguridad, nos impidan hacerlo. Podés cancelar tu usuario en cualquier
+momento, siguiendo las instrucciones en “Configuración” en el Servicio o enviando un
+correo a contacto@boatyapp.com.
+Boaty puede cancelar tu usuario en cualquier momento sin previo aviso si cree
+que has violado este Acuerdo o has incurrido en violación alguna a nuestras Reglas
+de la Comunidad y Políticas de Seguridad.
+
+5. Seguridad e interacciones con otros usuarios.
+Aunque Boaty se esfuerza por fomentar una buena experiencia de usuario, no
+es responsable de la conducta de ningún usuario dentro o fuera del Servicio. 
+Al crear un usuario en la aplicación, cada participante se obliga a observar
+las Reglas de la Comunidad y Políticas de Seguridad y Privacidad. Boaty no
+realiza verificaciones de antecedentes penales en sus usuarios.
+Cada usuario es responsable de las interacciones con los demás participantes de
+de la app, debiendo adoptar las medidas de seguridad necesarias
+recurriendo de ser necesario a las herramientas de seguridad provistas por
+Boaty indicadas en nuestras Políticas de Seguridad.
+
+6. Prohibiciones vinculadas con el uso del servicio.
+Boaty te otorga una licencia personal y revocable para acceder y utilizar el
+Servicio. Esta licencia tiene el único propósito de permitirte usar y disfrutar los
+beneficios del Servicio según lo previsto por Boaty y permitido por este
+Acuerdo. Por lo tanto, aceptas no:
+
+    . Usar el Servicio o cualquier contenido en el Servicio para fines comerciales sin nuestro consentimiento por escrito.
+    . Copiar, modificar, transmitir, crear obras derivadas de, hacer uso o reproducir de cualquier manera cualquier material con derechos de autor, imágenes, marcas registradas, nombres comerciales, marcas de servicio u otra propiedad intelectual, contenido o información de propiedad accesible a través del Servicio sin el consentimiento previo por escrito de Boaty
+    . Usar el Servicio de cualquier manera que pueda interferir, interrumpir o afectar negativamente el Servicio o los servidores o redes conectados al Servicio.
+    . Cargar virus u otro código malicioso o comprometer la seguridad del Servicio.
+    . Falsificar encabezados o manipular identificadores para disfrazar el origen de cualquier información transmitida a través del Servicio.
+    . “Enmarcar” o “reflejar” cualquier parte del Servicio sin la autorización previa por escrito de Boaty.
+    . Usar metaetiquetas o códigos u otros dispositivos que contengan alguna referencia a Boaty o al Servicio (o cualquier marca registrada, nombre comercial, marca de servicio, logotipo o lema de Boaty) para dirigir a cualquier persona a cualquier otro sitio web para cualquier propósito.
+    . Modificar, adaptar, sublicenciar, traducir, vender, aplicar ingeniería inversa, descifrar, descompilar o desarmar cualquier parte del Servicio, o hacer que otros lo hagan.
+    . Usar o desarrollar aplicaciones de terceros que interactúen con el Servicio o el Contenido o información de otros usuarios sin nuestro consentimiento por escrito.
+    . Usar, acceder o publicar la interfaz de programación de la aplicación Boaty sin nuestro consentimiento por escrito.
+    . Sondear, escanear o probar la vulnerabilidad de nuestro Servicio o de cualquier sistema o red.
+    . Alentar o promover cualquier actividad que viole este Acuerdo, las Reglas de la Comunidad, y las Políticas de Seguridad y Privacidad Anexas al presente.
+
+La Compañía puede investigar y promover cualquier acción judicial disponible en
+respuesta a usos ilegales y / o no autorizados del Servicio, incluida la cancelación
+de tu usuario.
+Cualquier software que te proporcionamos puede descargar e instalar
+automáticamente actualizaciones u otras características nuevas. Es posible que
+puedas ajustar estas descargas automáticas a través de la configuración de su
+dispositivo.
+
+7. Derechos que le otorgas a Boaty.
+Al crear un usuario en Boaty –ya sea ingresando desde Facebook, Google o mediante
+la creación de un perfil nuevo desde la aplicación- Boaty podrá utilizar los
+datos e información proporcionada conforme los alcances y los destinos indicados
+en nuestra Política de Privacidad.
+Al generar un usuario en la aplicación, se te informará debidamente de la
+información y datos que te será requerida, así de los usos y tratamientos que se le
+dará tus datos.
+Para poder utilizar la aplicación, deberás leer e informarte previamente de
+nuestras Políticas de Privacidad y aceptar las mismas, comprometiéndose a brindar
+datos ciertos y fidedignos. Asimismo, deberás brindar tu consentimiento para el
+uso de tus datos así como para que los mismos sean compartidos conforme los
+destinos informados.
+
+8. Reglas de la comunidad.
+Cada usuario deberá observar y respetar las Reglas de la Comunidad anexas al
+presente, debiendo ajustar su conducta a las normas allí dispuestas.
+Al crear un perfil en la aplicación, cada usuario deberá informarse y aceptar
+las Reglas de la Comunidad de Boaty.
+Boaty se reserva el derecho de investigar y / o cancelar su usuario y perfil si
+has violado el presente Acuerdo y/o las Reglas de la Comunidad, si has utilizado
+indebidamente el Servicio o te has comportado de una manera que Boaty
+considera inapropiada o ilegal, incluidas acciones o comunicaciones que ocurren
+dentro o fuera del servicio.
+
+9. Contenido de otros usuarios
+Aunque Boaty se reserva el derecho de revisar y eliminar todo contenido que
+viole nuestros Términos y Condiciones, dicho contenido es responsabilidad
+exclusiva del usuario que lo publica, y Boaty no puede garantizar que todo el
+contenido cumpla con las presentes normas.
+Asimismo, se les recuerda a los usuarios que ante el supuesto que detectaron
+contenido y/o acción alguna que viole los presentes Términos y
+Condiciones y/o Reglas de la Comunidad, podrán informar debidamente a través
+de nuestra página de contacto.
+
+10. Disponibilidad y servicio.
+Boaty proporcionará el servicio en las mejores condiciones posibles, sin
+garantizar al usuario su calidad satisfactoria, ni que el servicio sea brindado en
+forma ininterrumpida o libre de errores.
+
+11. Responsabilidad
+Boaty no será responsable civil y/o penalmente por cualquier daño
+ocasionado a sus usuarios o a terceras personas como consecuencia del
+uso indebido de la aplicación y/o con fines penados por la ley y/o en
+violación a los presentes Términos y Condiciones y/o Reglas de la
+Comunidad y/o Políticas de Seguridad y Privacidad.
+Del mismo modo, el usuario se obliga a mantener indemne a Boaty frente a
+cualquier reclamo judicial y/o extrajudicial y/o administrativo derivados de daños
+ocasionados a otros usuarios y/o terceras personas como consecuencia del uso
+indebido y/o con fines ilícitos de la aplicación, debiendo afrontar el usuario en
+forma exclusiva los gastos y costos judiciales y/o extrajudiciales que demande su
+defensa propia y la de Boaty.
+
+13. Coexistencia con demás Políticas, Reglas y Anexos
+Los presentes Términos y Condiciones, Políticas de Privacidad, y Reglas de la
+Comunidad constituyen el conjunto de normas que rigen tu relación con Boaty
+con respecto al uso del servicio.
+Si alguna disposición de la presente se considera inválida, el resto de las Políticas,
+Las reglas y normas continuarán en pleno vigor y efecto.
+
+14. Indemnización
+Aceptas indemnizar y mantener a Boaty libre de y contra todos los daños,
+pérdidas y gastos de cualquier tipo (incluidos los honorarios y costos razonables
+de abogados) que surjan de o estén relacionados con:
+    (1) tu incumplimiento a los Convenios o cualquiera de ellos;
+    (2) cualquier Contenido de Usuario que publiques o con el que contribuyas;
+    (3) cualquier actividad en la que participes en o a través del Servicio de Boaty; y
+    (4) si infringes alguna ley o los derechos de un tercero.
+
+15. Contactanos
+Si tuvieras alguna pregunta sobre el Servicio de Boaty o los Convenios, por
+favor comunícate con Servicio al Cliente de Boaty enviando un correo
+a contacto@boatyapp.com
+
+Entidad contratante: Boaty
+
+Política de privacidad
+
+Introducción:
+Boaty en su versión actual, sólo requerirá de sus usuarios que
+proporcionen su nombre completo, fotografía, geolocalización, correo
+electrónico y teléfono de contacto y otros datos personales asociados. Del mismo modo, Boaty sólo almacenará los datos descritos, así como las credenciales de acceso,
+los cuales podrán ser eliminados y/o modificados en cualquier momento
+para el usuario.
+Desde Boaty buscamos garantizar la privacidad, protección y
+seguridad de los datos brindados así como también de todo otro dato
+eventualmente obtenido en el futuro, procurando brindarles a nuestros
+usuarios el mejor servicio de una manera segura.
+
+¿Qué datos personales protegemos?
+Desde Boaty garantizamos la seguridad, privacidad y protección
+integral de toda la información que nos proporcione cada usuario,
+resguardando de forma segura los datos personales brindados y que
+sean facilitados con el previo consentimiento del titular de los mismos.
+
+¿Qué se entiende por datos personales? 
+En la versión actual de Boaty, sólo se te requerirá que proporciones tu nombre, apellido,
+geolocalización, fotografía, correo electrónico y teléfono de contacto además de otros datos personales relacionados, los cuales deberás proporcionar al momento de ingresar a la aplicación, sea mediante el inicio de sesión a través de Facebook, Google o bien creando un nuevo usuario. Eventualmente y ante futuras modificaciones del servicio, Boaty
+podría solicitarle tu fecha de nacimiento, identidad sexual, entre otros
+datos personales. Del mismo modo, eventualmente Boaty podrá
+recabar datos vinculados con tu actividad en la aplicación: cantidad de
+inicios de sesión en la app, tiempo transcurrido desde el último inicio de sesión, si dejaste
+de iniciar sesión, tu tiempo de permanencia e interacción, la cantidad de tiempo que te mantienes activo en la app, y/o cualquier otro tipo de indicador que te será requerido e informado debidamente y que sea prestado con tu expreso consentimiento.
+
+Boaty podrá solicitarle tu opinión sobre tus gustos personales, y
+sobre el funcionamiento de la app y tu experiencia en la misma, a los
+fines de brindarte un mejor servicio.
+
+Cada usuario deberá conocer e informarse debidamente de nuestras
+Políticas de privacidad al momento de acceder a la aplicación. Del
+mismo modo, Boaty notificará a cada usuario de cualquier
+modificación implementada en las mismas.
+
+Asimismo, cada usuario deberá abstenerse de realizar cualquier acto o
+uso inapropiado de la aplicación que importe la divulgación indebida de
+datos personales propios o de otros usuarios.
+
+En ningún momento, Boaty te requerirá información personal
+relativa a “datos sensibles”, encontrándose comprendidos aquellos datos
+personales que revelan origen racial y étnico, opiniones políticas,
+convicciones religiosas, filosóficas o morales, afiliación sindical e
+información referente a la salud o a la vida sexual.
+
+De esta manera, te brindaremos un servicio seguro que respete tu
+intimidad, identidad y derecho al honor, permitiéndole al mismo tiempo
+acceder de forma fácil y segura a tus datos personales.
+
+¿Cuáles son nuestros principios?
+Hemos elaboramos nuestras Políticas de Privacidad sobre la base de los siguientes principios:
+
+1. CONSENTIMIENTO Y CONFORMIDAD DEL TITULAR. Al momento
+de aceptar y adherir a nuestros Términos y Condiciones, Reglas de
+la Comunidad y Políticas de Privacidad requerimos a cada usuario
+que preste su conformidad para el uso de su información personal.
+Boaty no requerirá ni utilizará ningún dato o información de
+un usuario sin su previo consentimiento prestado en forma libre,
+expresa y sin encontrarse debidamente informado de los datos que
+le serán requeridos, su contenido y forma de acceso a los mismos, y
+del uso y tratamiento que se le dará a su información personal.
+
+2. INFORMACIÓN AL TITULAR. Al momento de acceder a la
+aplicación, Boaty informará debidamente a cada usuario
+sobre sus Políticas de Privacidad, notificando asimismo en forma
+fehaciente cualquier modificación y/o actualización de las mismas.
+Cada usuario será debidamente informado de los datos e información
+que le serán requeridos, su contenido, el carácter obligatorio o facultativo
+de los datos requeridos, la obligación de brindar datos exactos y ciertos –
+y sus consecuencias ante su incumplimiento-, la finalidad, tratamiento y
+destinatarios de los mismos, y las medidas de seguridad, protección y
+confidencialidad.
+
+Boaty informará previamente sobre las funciones habilitadas por
+medio de las cuales cada usuario podrá acceder a sus datos, completar o
+eliminar aquellos que sean requeridos en forma suplementaria y/o sean
+optativos, decidir sobre la configuración de privacidad de los mismos,
+modificar los mismos, y solicitar la rectificación de la información
+existente en la plataforma digital.
+Los datos total o parcialmente inexactos, o que sean incompletos, serán
+suprimidos y sustituidos, o en su caso completados por Boaty,
+cuando se tenga conocimiento de la inexactitud o carácter incompleto de
+la información de que se trate, sin perjuicio de los derechos del titular
+establecidos las presentes Políticas de Privacidad.
+
+3. CONTENIDO Y FINALIDAD DE LOS DATOS. Boaty sólo le
+requerirá a los usuarios los datos personales discriminados en el
+apartado “¿QUÉ DATOS PERSONALES PROTEGEMOS?”,
+notificándose previamente a los usuarios de los datos e información
+requeridos. En ningún momento, Boaty requerirá a los
+usuarios que brinden información calificada como “DATOS
+SENSIBLES”, o que sean contrarios a la ley o a la moral pública.
+
+Boaty sólo utilizará los datos requeridos y proporcionados
+por los usuarios de forma legal, segura y conforme la finalidad que
+originó su recolección. A su vez, Boaty podrá utilizar
+eventualmente la información recabada a través de posibles
+encuestas realizadas a los usuarios vinculada con sus gustos,
+preferencias y experiencias dentro de la aplicación, sólo para
+mejorar su experiencia en la misma y la calidad de los servicios
+brindados.
+
+4. CALIDAD DE LOS DATOS. Boaty velará por la calidad,
+exactitud y veracidad de cualquier dato requerido y proporcionado
+por cada usuario al momento de ingresar a la aplicación. A tal fin, es obligación del usuario brindar datos válidos, ciertos y fidedignos.
+
+Desde Boaty, garantizamos que los datos recabados y
+almacenados sean adecuados, pertinentes y no excesivos en relación a
+la finalidad que motivó su recolección conforme apartado anterior.
+Asimismo, Boaty garantizará que los mismos han sido obtenidos
+lícitamente y con el previo consentimiento expreso, libre e informado de
+su titular.
+Cualquier eventual dato proporcionado se encontrará almacenado de
+manera tal que su titular puede acceder fácilmente y ejercer los derechos
+que estas Políticas de Privacidad prevén al respecto, a través de la
+opción PERFIL existente en la aplicación.
+Boaty podrá requerir eventualmente la actualización de datos e
+información cuando ello sea necesario, y siempre con el previo
+consentimiento libre e informado de su titular.
+Por último, se le informa a los usuarios que Boaty procederá
+eventualmente a destruir aquellos datos que hubieren dejado de ser
+necesarios o pertinentes a los fines para los cuales fueron recolectados.
+
+5. SEGURIDAD Y CONFIDENCIALIDAD DE LOS DATOS. Desde
+Boaty, garantizaremos la seguridad, protección y
+confidencialidad de cualquier dato eventualmente proporcionado por
+cada usuario, en todos los procesos de su organización e incluso
+después de finalizada la relación contractual.
+
+¿Cuáles son tus derechos?
+Como titular de los datos personales que nos proporciones, tendrás a tu
+cargo el control exclusivo de tu información personal.
+Cada usuario tendrá acceso irrestricto y en cualquier momento a la
+totalidad de sus datos, conociendo su contenido, solicitando su
+rectificación, actualizando y eliminando de los mismos.
+
+ACCEDÉ FÁCILMENTE A TUS DATOS. Para acceder a tus datos,
+deberás ingresar al menú “PERFIL” colocado en la punta superior
+izquierda de tu teléfono.
+
+CONOCÉ, ACTUALIZAR Y RECTIFICAR EL CONTENIDO DE TUS
+DATOS. Para ello, deberás ingresar primero al menú “PERFIL”. Desde allí podrás visualizar
+el listado de todos los datos personales proporcionados y de la información eventualmente proporcionada relativa a tus gustos personales. Desde allí y haciendo click en la opción “EDITAR”, podrás modificar personalmente el contenido de tus datos, rectificando aquellos
+que hayan sido consignados de manera errónea o bien actualizando los
+mismos.   Las modificaciones que introduzcas a tus datos, se verán reflejadas
+automáticamente desde el menú “PERFIL”.
+
+ELIMINÁ LOS DATOS QUE QUIERAS. Podrás suprimir aquellos datos
+que ya no quieras consignar dentro de la aplicación, siempre que los
+mismos no sean requeridos en forma obligatoria para participar dentro de
+de la app (es decir, tu geolocalización, nombre y foto de
+perfil). Para ello, deberás ingresar al menú “PERFIL”, colocado en la
+punta superior izquierda de tu teléfono, e ingresar a la opción “PERFIL/
+EDITAR”. La eliminación de los datos se verá reflejada automáticamente
+en el menú “PERFIL”.
+
+CONOCÉ CÓMO SERÁN UTILIZADOS TUS DATOS Y CON QUIÉN
+SERÁN COMPARTIDOS.
+A través del apartado ¿CÓMO USAMOS TUS DATOS?, podrás conocer
+el tratamiento que le damos a tu información, así como los destinatarios
+con quienes compartiremos tus datos.
+SOLICITAR EL BLOQUEO O RETIRO DE SU NOMBRE CUANDO SEA
+EMPLEADO CON FINES PROMOCIONALES.
+
+¿Cuáles son tus obligaciones?
+Es obligación de cada usuario proporcionar datos válidos, ciertos,
+fidedignos y exactos, ya sea al momento de ingresar a la aplicación –
+creando un usuario y perfil nuevo, o bien al iniciando sesión desde Facebook, Google,
+como también cuando le sean requeridos con motivo de nuevas
+funciones y/o actualizaciones introducidos en la app, facilitados con su
+previo consentimiento.
+
+Del mismo modo, cada usuario deberá abstenerse de compartir y/o
+publicar datos e información personal de otros participantes de la app
+inteligente con otros usuarios y/o terceras personas, sin el previo
+consentimiento del titular de dichos datos.
+
+Por último, se les recuerda a los participantes que deberán respetar las normas de conducta y reglas establecidas en nuestras Reglas de la Comunidad Boaty anexas al presente.
+
+¿Cómo usamos tus datos?
+Boaty sólo requerirá de sus usuarios los datos indicados en el
+apartado ¿QUÉ DATOS PERSONALES PROTEGEMOS? Los datos e
+información recabada de los usuarios con el previo consentimiento
+expreso e informado de ellos, serán utilizados únicamente para los fines
+establecidos en la presente.
+
+Boaty utilizará los datos proporcionados por sus usuarios para la
+correcta individualización e identificación de los mismos.
+
+Boaty podrá solicitarle tu opinión sobre tus gustos personales, y
+sobre el funcionamiento de la app y tu experiencia en la misma, a los
+fines de brindarte un mejor servicio.
+
+Boaty podrá solicitarse tu información bancaria, tales como número, titular y código de tarjetas de crédito del sistema fiat como asimismo direcciones de billeteras virtuales dentro del sistema cripto. Toda información bancaria solicitada por Boaty no será almacenada ni compartida con otros usuarios. Toda información bancaria solicitada por Boaty será usada solo con fines de procesar pagos dentro de la plataforma boatyapp.com así como de plataformas vinculadas a boaty cómo Stripe, (más información en stripe.com).
+
+Boaty podrá utilizar eventualmente la información recabada a través de posibles encuestas realizadas a los usuarios vinculada con sus gustos, preferencias y experiencias dentro de la aplicación, sólo para mejorar su experiencia en la misma y la calidad de los servicios
+brindados, respetando la debida confidencialidad, seguridad y
+privacidad de los mismos. En este caso, se les recuerda a los usuarios
+que podrán en cualquier momento solicitar el retiro o bloqueo de su
+nombre de dicho banco de datos, desde que el consentimiento brindado
+es revocable.
+
+Asimismo, Boaty podrá recurrir al uso de Cookies para
+conectar usuarios entre sí cuyos intereses sean considerados
+comunes según los datos recabados e individualizados arriba.
+
+Modificación de las políticas de privacidad
+Boaty te notificará en forma fehaciente y con antelación
+suficiente sobre cualquier actualización y/o modificación introducida a las
+Políticas de privacidad.
+A tal fin, Boaty te enviará una notificación PUSH desde la
+plataforma de la aplicación al momento de iniciar sesion en la misma, así como
+también un correo electrónico a la casilla de correo que hayas
+proporcionado.
+
+Deberás leer e informarte debidamente y prestar tu conformidad con las
+Políticas de Privacidad y/o la actualización y/o modificación de las
+mismas, como condición para poder utilizar la aplicación garantizando la
+protección, seguridad y privacidad de los datos personales e información
+por vos proporcionados.
+
+Privacidad de datos y seguridad de la plataforma
+Una de nuestras principales prioridades en Boaty es garantizar la
+privacidad y protección de nuestros usuarios, así como de los datos e
+información personal que ellos nos proporcionen.
+Para ello, te invitamos a conocer e informarse debidamente de nuestras
+Políticas de Privacidad que forman parte de la presente.
+
+Información adicional
+Nuestra meta principal es mejorar la experiencia de nuestros usuarios.
+Para ello, cada usuario debe respetar las normas de conducta
+establecidas en nuestras Reglas de la Comunidad.
+
+Al mismo tiempo, necesitamos que cada participante reporte a
+Boaty de cualquier comportamiento indebido y/o ilícito  detectado
+que infrinja las Reglas de la Comunidad contactarse inmediatamente con nuestro
+equipo en línea desde nuestra página web: www.boatyapp.com o
+enviándonos un correo electrónico a  contacto@boatyapp.com.
+
+¿Alguna pregunta?
+Si tienes preguntas relacionadas con tu privacidad, nuestra Política de
+Privacidad, la información que tenemos acerca de ti o tus derechos y
+cómo ejercerlos, comunícate con nosotros.
+
+Reglas de la comunidad
+
+I.- BIENVENIDA
+Te damos la bienvenida a la comunidad Boaty. 
+Si te comportas con responsabilidad, honestidad, coherencia, amabilidad y respeto para con los demás usuarios, serás bienvenido y podrás ejercer pleno uso de la aplicación. En caso que no te comportes apropiadamente, infringiendo las reglas de la comunidad y/o incurriendo en conductas ilícitas, podremos bloquear temporalmente tu acceso a la aplicación dentro de la Boaty de la que te encuentres participando, e incluso eliminar tu usuario, informando inmediatamente a las autoridades legales ante cualquier ilícito cometido.
+
+Nuestro deseo es permitir que los usuarios interactúen libremente entre sí, en un ambiente de respeto y solidaridad, siempre y cuando se cumplan con las condiciones y normas de conducta aquí establecidas. 
+
+En Boaty todos están sujetos a las mismas normas de conducta. En virtud de ello, te solicitamos tengas presente estas normas  y cumplas íntegramente con las reglas de nuestra comunidad, al momento de encontrarte conectado con otros usuarios desde la app.
+Boaty evaluará tu conducta procediendo a bloquear temporalmente tu usuario, o eliminando el mismo de verificarse un incumplimiento grave a las normas de conducta aquí establecidas. En ese caso, el usuario que ha sido expulsado de la comunidad Boaty no podrá volver a generar un nuevo perfil en la aplicación.
+
+II.- PROHIBICIONES
+Se encuentra terminantemente prohibido:
+
+II. A.- MÁS DE UN PERFIL POR PERSONA
+Se encuentra prohibida la existencia de dos perfiles o más por un mismo usuario. Del mismo modo, se encuentran prohibidos los usuarios compartidos.
+II. B.- ENVÍOS DE SPAM
+No aceptamos que utilices Boaty para redirigir a las personas a páginas web externas.
+II. C.- COMPARTIR INFORMACIÓN PRIVADA Y/O SENSIBLE
+Se encuentra prohibida cualquier divulgación pública de información privada, ya sea propia o ajena. Esto incluye la divulgación de datos personales como el nombre, apellido, sexo, DNI, pasaporte, usuarios, contraseñas, números de teléfonos celulares, direcciones de correos electrónicos, domicilios de hogar o trabajo y/o cualquier otro tipo de datos e información privados.
+II. D.- FOMENTAR O PROMOVER ACTOS DE VIOLENVIA, EXCLUSIÓN Y/O DISCRIMINACIÓN
+No se acepta ningún contenido que fomente o promueva la violencia, exclusión y/o discriminación contra otros usuarios o grupos de usuarios por razones étnicas, género e identidad sexual, creencias religiosas, aspiraciones políticas, valores personales, entre otras.
+II. E.- REALIZAR ACCIONES ILEGALES Y/O FRAUDULENTAS
+Se encuentra prohibido utilizar Boaty con fines ilícitos penados por la ley. Asimismo, se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación para engañar y/o defraudar y/o estafar y/o incurrir en delito penal alguno respecto de otros usuarios y/o terceras personas.
+II. F.- OFRECER SERVICIOS SEXUALES
+Se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación con el fin de ofrecer servicios sexuales a otros usuarios o terceras personas.
+II. G.- PROMOVER, FACILITAR Y/O INCURRIR EN PROSTITUCIÓN Y/O TRÁFICO DE PERSONAS
+Se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación a los fines de promover, facilitar y/o incurrir en prostitución y/o tráfico de personas,.
+II. H.- ACOSAR Y/O ABUSAR SEXUALMENTE
+Se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación a los fines de acosar verbal y/o físicamente y/o abusar sexualmente de otros usuarios o terceras personas, en forma personal o bien incitando y/o fomentando a otros usuarios o terceras personas que lo hagan.
+II. I.- EXHIBICIONISMOS O DESNUDOS
+Se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación a los fines de remitir a otros usuarios y/o terceras personas imágenes que impliquen 
+desnudos y/o actos de exhibicionismo. Asimismo, el usuario debe conservar un estilo apropiado en su foto de perfil, no debiendo exhibir imágenes con contenido erótico y/o sexual.
+II. J.- PROHIBICIÓN DE ACCESO A MENORES DE EDAD
+Se encuentra terminantemente prohibido la creación de un usuario y/o el acceso y/o el uso de la aplicación a menores de dieciocho (18) años de edad. En caso de detectar la presencia de menores de edad y/o la creación de perfiles por parte de éstos, el usuario será eliminado inmediatamente. Se procederá de igual forma en caso de detectar perfiles que contengan imágenes de niños o niñas y/o adolescentes solos.
+II. K.- UTILIZACIÓN DE UNA IDENTIDAD AJENA
+Se encuentra terminantemente prohibido la creación de un usuario y/o el acceso y/o el uso de la aplicación empleando una identidad ajena distinta de la del verdadero usuario. En caso de detectarse el uso indebido de una identidad ajena se procederá a eliminar inmediatamente el usuario dentro de la plataforma digital.
+II.- L.- PROPORCIONAR DATOS FALSOS O INEXACTOS
+El usuario deberá brindar datos válidos, ciertos, fidedignos y exactos al momento de ingresar a la aplicación – creando un usuario y perfil nuevo, o bien al loguearse desde Facebook-, como también cuando le sean requeridos con motivo de nuevas funciones y/o actualizaciones introducidos en la app, y que sean facilitados con el previo consentimiento del usuario.
+II. M.- REALIZAR DAÑOS FÍSICOS O PSÍQUICOS Y/O EJERCER VIOLENCIA DE CUALQUIER FORMA
+Se encuentra terminantemente prohibido utilizar la plataforma digital que brinda la aplicación a los fines de agredir física, verbal y/o psicológicamente y/o infligir daño físico y/o psicológico alguno a otros usuarios y/o a terceras personas. Del mismo modo se encuentra terminantemente prohibido ejercer ningún tipo de violencia física y/o verbal hacia otros usuarios y/o terceras personas.
+
+III.- SANCIONES POR INCUMPLIMIENTO
+
+El incumplimiento del usuario a cualquiera de las reglas, términos y condiciones establecidas en la presente, así como a las Políticas de Seguridad, Políticas de Privacidad, Términos y Condiciones de Boaty anexas a la presente implicará la aplicación inmediata de sanciones, que van desde el bloqueo temporal del usuario dentro de la Boaty de la que se encuentra participando, hasta la eliminación definitiva del usuario de la aplicación Boaty.
+
+Asimismo, de verificarse la posible comisión de un delito, Boaty notificará inmediatamente a las autoridades legales, además de proceder a eliminar el usuario.
+
+Por último, el usuario deberá responder por los daños y perjuicios ocasionados a la firma, a otros usuarios y/o a terceras personas con motivo del uso indebido o con fines ilícitos de la aplicación.

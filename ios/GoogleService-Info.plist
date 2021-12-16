@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>240182239829-ctg0ouer0me3q2br6r8c0ijfbu940i6l.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA91Dt9sFsEFhBkTykAvy4sQNNqIxTe2no</string>
+	<key>GCM_SENDER_ID</key>
+	<string>240182239829</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.boaty</string>
+	<key>PROJECT_ID</key>
+	<string>boaty-b697f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>boaty-b697f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:240182239829:ios:7b2b3d0fcc810e3c766adc</string>
+</dict>
+</plist>
