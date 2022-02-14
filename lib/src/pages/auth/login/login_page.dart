@@ -81,6 +81,14 @@ class _LoginPageBodyState extends State<_LoginPageBody> {
                 ),
               ),
             ),
+            Padding(
+              padding: EdgeInsets.only(bottom: 24),
+              child: Text(
+                'Recomendamos ingresar/registrarte con correo electrónico si eres dueño de un bote y deseas publicarlo en la aplicación',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 10),
+              ),
+            ),
             Text('¿Aún no tienes una cuenta?'),
             TextButton(
               onPressed: () {

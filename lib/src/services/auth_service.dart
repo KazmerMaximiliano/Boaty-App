@@ -92,6 +92,7 @@ class AuthService extends ChangeNotifier {
         idToken: googleSignInAuthentication.idToken,
         accessToken: googleSignInAuthentication.accessToken
     );
+    
     await _auth.signInWithCredential(credential);
 
     DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
@@ -143,7 +144,6 @@ class AuthService extends ChangeNotifier {
 
         if (resp.statusCode == 200) {
           await storage.write(key: 'token', value: resp.body);
-          print(resp.body);
           _prefs.logged = true;
           await this.user();
           return null;

@@ -30,7 +30,7 @@ class PaymentService extends ChangeNotifier {
     }
   }
 
-  Future<String?> getOwnerWallet(id) async {
+  Future<Map<String, String>?> getOwnerWallet(id) async {
     final String token = await authService.readToken();
     final url = Uri.parse("$_baseUrl/get-crypto-address");
     final Map<String, String> headers = {"Authorization": "Bearer $token"};
@@ -38,7 +38,12 @@ class PaymentService extends ChangeNotifier {
     final resp = await http.get(url, headers: headers);
 
     if(resp.statusCode == 200) {
-      return resp.body;
+      final decodedData = json.decode(resp.body);
+
+      return {
+        'address': decodedData['address'],
+        'currency': decodedData['currency']
+      };
     } else {
       return null;
     }

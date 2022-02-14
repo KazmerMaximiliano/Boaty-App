@@ -57,7 +57,7 @@ class _NuevoBoteUbicacionState extends State<NuevoBoteUbicacion> {
               // Text('Manten presionada una ubicación en el mapa para establecerla como la ubicación de la embarcación', textAlign: TextAlign.center, style: TextStyle(fontSize: 18),),
               // SizedBox(height: 36,),
               Container(
-                height: screenSize.height * 0.70,
+                height: screenSize.height * 0.60,
                 child: FlutterMap(
                   mapController: _mapController,
                   options: MapOptions(

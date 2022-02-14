@@ -1,49 +1,42 @@
 {
   "project_info": {
-    "project_number": "240182239829",
-    "project_id": "boaty-b697f",
-    "storage_bucket": "boaty-b697f.appspot.com"
+    "project_number": "693458711577",
+    "project_id": "boaty-20441",
+    "storage_bucket": "boaty-20441.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:240182239829:android:96ddbcfb3c754f8f766adc",
+        "mobilesdk_app_id": "1:693458711577:android:0c39299e39c06ce9552688",
         "android_client_info": {
           "package_name": "com.app.boaty"
         }
       },
       "oauth_client": [
         {
-          "client_id": "240182239829-0cu3stm2kihqa1nu793uic5637etokri.apps.googleusercontent.com",
+          "client_id": "693458711577-3d4bjgrpeuh20rq1vkiv7c77v6fmof1i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.app.boaty",
-            "certificate_hash": "97fbc10413a4bc88a20eb32ef4ac1ca87103581b"
+            "certificate_hash": "fcaac68498f01fb3f69616f49fc0fcc442e85588"
           }
         },
         {
-          "client_id": "240182239829-3g3fpii699603bl64kl2rid3pmvs51ju.apps.googleusercontent.com",
+          "client_id": "693458711577-lu03u1nvas17du5mhr0t4srole329h8s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB-RtXDsHGQ51V7O53og8MyCE0a-JPkSuI"
+          "current_key": "AIzaSyAhgnXWGf3IcRa9JLg7QcMY82mxnm8TueM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "240182239829-3g3fpii699603bl64kl2rid3pmvs51ju.apps.googleusercontent.com",
+              "client_id": "693458711577-lu03u1nvas17du5mhr0t4srole329h8s.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.app.boaty"
-              }
             }
           ]
         }

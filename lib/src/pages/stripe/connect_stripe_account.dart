@@ -21,6 +21,7 @@ class ConnectStripeAccounWidget extends StatefulWidget {
 class _ConnectStripeAccounWidgetState extends State<ConnectStripeAccounWidget> {
   bool inProcess = false;
   bool acceptCrypto = false;
+  String? cryptoDivisa;
   String? cryptoAddres;
   final stripeService = new StripeService();
   static final _prefs = SharedPrefs();
@@ -58,20 +59,38 @@ class _ConnectStripeAccounWidgetState extends State<ConnectStripeAccounWidget> {
                 ),
               ),
               SizedBox(height: 18,),
-              acceptCrypto ? InputContainerWidget(
-                input: TextFormField(
-                  obscureText: true,
-                  keyboardType: TextInputType.text,
-                  decoration: InputDecoration(
-                    labelText: 'Dirección',
-                    border: InputBorder.none,
+              acceptCrypto ? Column(
+                children: [
+                  InputContainerWidget(
+                    input: TextFormField(
+                      keyboardType: TextInputType.text,
+                      decoration: InputDecoration(
+                        labelText: 'Divisa',
+                        border: InputBorder.none,
+                      ),
+                      onChanged: (value) {
+                        cryptoDivisa = value;
+                        setState(() {});
+                      },
+                    ),
+                    validator: cryptoDivisaValidator(cryptoDivisa)
                   ),
-                  onChanged: (value) {
-                    cryptoAddres = value;
-                    setState(() {});
-                  },
-                ),
-                validator: cryptoAddresValidator(cryptoAddres)
+                  InputContainerWidget(
+                    input: TextFormField(
+                      obscureText: true,
+                      keyboardType: TextInputType.text,
+                      decoration: InputDecoration(
+                        labelText: 'Dirección',
+                        border: InputBorder.none,
+                      ),
+                      onChanged: (value) {
+                        cryptoAddres = value;
+                        setState(() {});
+                      },
+                    ),
+                    validator: cryptoAddresValidator(cryptoAddres)
+                  ),
+                ],
               ) : Container(),
               SizedBox(height: 18,),
               Padding(
@@ -87,7 +106,7 @@ class _ConnectStripeAccounWidgetState extends State<ConnectStripeAccounWidget> {
                           inProcess = true;
                         });
                         if (acceptCrypto) {
-                          final resp = await stripeService.setCryptoAddress(cryptoAddres);
+                          final resp = await stripeService.setCryptoAddress(cryptoAddres, cryptoDivisa);
                           if (resp != null) {
                             NotificationsService.showSnacbar('Crypto Ha ocurrido un error');
                             return;
@@ -123,6 +142,14 @@ class _ConnectStripeAccounWidgetState extends State<ConnectStripeAccounWidget> {
 String? cryptoAddresValidator(value) {
   if (value != null) {
     return value.length > 6 ? null : 'La dirección es muy corta';
+  } else {
+    return null;
+  }
+}
+
+String? cryptoDivisaValidator(value) {
+  if (value != null) {
+    return value.length > 2 ? null : 'La divisa es muy corta';
   } else {
     return null;
   }

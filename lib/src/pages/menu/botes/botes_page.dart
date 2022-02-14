@@ -41,9 +41,9 @@ class _BotesContainerState extends State<BotesContainer> {
             );
           } else {
             return Column(
-              mainAxisSize: MainAxisSize.min,
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                SizedBox(height: 125),
                 BoatyLogo.favsEmpty,
                 SizedBox(height: 10),
                 Center(

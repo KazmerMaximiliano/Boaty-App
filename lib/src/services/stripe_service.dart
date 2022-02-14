@@ -34,7 +34,7 @@ class StripeService extends ChangeNotifier {
     }    
   }
 
-  Future<String?> setCryptoAddress(address) async {
+  Future<String?> setCryptoAddress(address, divisa) async {
     final String token = await authService.readToken();
     final url = Uri.parse('$_baseUrl/set-crypto-address');
     final Map<String, String> headers = {
@@ -43,7 +43,8 @@ class StripeService extends ChangeNotifier {
     };
 
     final Map<String, dynamic> body = {
-      'address': address,
+      'crypto_currency': divisa,
+      'crypto_address': address,
     };
 
     final resp = await http.post(url, body: body, headers: headers);

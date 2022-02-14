@@ -24,7 +24,8 @@ class BotesList extends StatelessWidget {
             );
           } else {
             return Column(
-              mainAxisSize: MainAxisSize.min,
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 BoatyLogo.favsEmpty,
                 SizedBox(height: 10),

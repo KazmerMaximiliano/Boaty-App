@@ -64,7 +64,14 @@ class _MetodoCryptoFormState extends State<MetodoCryptoForm> {
                         ),
                         SizedBox(height: 36,),
                         Text(
-                          snapshot.data,
+                          snapshot.data['currency'],
+                          textAlign: TextAlign.center,
+                          
+                          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                        ),
+                        SizedBox(height: 36,),
+                        Text(
+                          snapshot.data['address'],
                           textAlign: TextAlign.center,
                           
                           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),

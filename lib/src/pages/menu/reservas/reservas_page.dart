@@ -325,9 +325,9 @@ class ReservasEmpty extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisSize: MainAxisSize.min,
+      mainAxisSize: MainAxisSize.max,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SizedBox(height: 125),
         BoatyLogo.tickets,
         SizedBox(height: 10),
         Center(

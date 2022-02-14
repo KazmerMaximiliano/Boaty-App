@@ -12,12 +12,33 @@
 							<string>com.googleusercontent.apps.240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh</string>
 					</array>
 			</dict>
+			<dict>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>fb471688047759398</string>
+				</array>
+			</dict>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 			<key>NSAllowsLocalNetworking</key>
 			<true/>
 	</dict>
+
+	<!-- FACEBOOK -->
+	<key>FacebookAppID</key>
+	<string>471688047759398</string>
+	<key>FacebookClientToken</key>
+	<string>928bdb0a648237836a1bb6e771e695be</string>
+	<key>FacebookDisplayName</key>
+	<string>Boaty</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 
 	<key>io.flutter.embedded_views_preview</key>
 	<true/>
