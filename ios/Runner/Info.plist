@@ -58,13 +58,13 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Necesitamos acceder a la camara para tomar fotos.</string>
+	<string>Necesitamos acceder a la camara para tomar fotos de la embarcaciones que desea publicar en la aplicación</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Necesitamos acceder a tu ubicación para mejorar nuestras funciones a la hora de registrar embarcaciones</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Necesitamos acceder a tu ubicación para mejorar nuestras funciones a la hora de registrar embarcaciones</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Necesitamos acceder a las fotos</string>
+	<string>Necesitamos acceder a las fotos de tu galeria en caso de que quieras elegir una foto de la misma para publicarla junto con tus embarcaciones</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

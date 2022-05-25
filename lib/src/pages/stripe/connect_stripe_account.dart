@@ -114,6 +114,7 @@ class _ConnectStripeAccounWidgetState extends State<ConnectStripeAccounWidget> {
                         }
 
                         final String? stripeUrl = await stripeService.connectStripeAccount();
+                        print(stripeUrl);
 
                         if (stripeUrl != null) {
                           _prefs.adminView = true;

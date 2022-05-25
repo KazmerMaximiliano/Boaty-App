@@ -80,7 +80,7 @@ class _EditPerfilFormState extends State<EditPerfilForm> {
                         InputContainerWidget(
                           input: TextFormField(
                             initialValue: user.phone,
-                            keyboardType: TextInputType.number,
+                            keyboardType: TextInputType.numberWithOptions(signed: true),
                             decoration: InputDecoration(
                               labelText: 'CEL/TEL',
                               border: InputBorder.none,

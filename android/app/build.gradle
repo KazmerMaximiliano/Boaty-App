@@ -40,7 +40,7 @@ android {
         applicationId "com.app.boaty"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode flutterVersionCode.toInteger()
+        versionCode 7
         versionName flutterVersionName
         multiDexEnabled true
     }

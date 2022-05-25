@@ -27,7 +27,7 @@ class _NuevoBotePriceState extends State<NuevoBotePrice> {
             children: [
               InputContainerWidget(
                 input: TextFormField(
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.numberWithOptions(signed: true),
                   decoration: InputDecoration(
                     labelText: 'Precio',
                     border: InputBorder.none,
@@ -44,7 +44,7 @@ class _NuevoBotePriceState extends State<NuevoBotePrice> {
               ),
               InputContainerWidget(
                 input: TextFormField(
-                  keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.numberWithOptions(signed: true),
                   decoration: InputDecoration(
                     labelText: 'Capacidad',
                     border: InputBorder.none,

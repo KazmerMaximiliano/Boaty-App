@@ -62,7 +62,7 @@ class _FinishRegisterFormState extends State<FinishRegisterForm> {
                         ),
                         InputContainerWidget(
                           input: TextFormField(
-                            keyboardType: TextInputType.number,
+                            keyboardType: TextInputType.numberWithOptions(signed: true),
                             decoration: InputDecoration(
                               labelText: 'CEL/TEL',
                               border: InputBorder.none,
@@ -175,7 +175,7 @@ class _FinishRegisterFormState extends State<FinishRegisterForm> {
                                 context: context,
                                 locale : const Locale("es", "ES"),
                                 initialDate: DateTime.now(),
-                                firstDate: DateTime.utc(1990, 1, 1),
+                                firstDate: DateTime.utc(1910, 1, 1),
                                 lastDate: DateTime.utc(2100, 1, 1),
                               ).then((value) {
                                 if(value != null) {

@@ -13,6 +13,7 @@ import 'package:device_info/device_info.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:the_apple_sign_in/the_apple_sign_in.dart';
+
 class AuthService extends ChangeNotifier {
   final String _baseUrl = dotenv.env['URL'].toString();
   final storage = FlutterSecureStorage();

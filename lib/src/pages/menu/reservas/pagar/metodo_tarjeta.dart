@@ -61,7 +61,7 @@ class _MetodoTarjetaFormState extends State<MetodoTarjetaForm> {
               children: [
                 InputContainerWidget(
                   input: TextFormField(
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.numberWithOptions(signed: true),
                     decoration: InputDecoration(
                       labelText: 'Número',
                       border: InputBorder.none,
@@ -85,7 +85,7 @@ class _MetodoTarjetaFormState extends State<MetodoTarjetaForm> {
                 ),
                 InputContainerWidget(
                   input: TextFormField(
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.numberWithOptions(signed: true),
                     decoration: InputDecoration(
                       labelText: 'Fecha de vencimiento',
                       border: InputBorder.none,
@@ -129,7 +129,7 @@ class _MetodoTarjetaFormState extends State<MetodoTarjetaForm> {
                 ),
                 InputContainerWidget(
                   input: TextFormField(
-                    keyboardType: TextInputType.number,
+                    keyboardType: TextInputType.numberWithOptions(signed: true),
                     decoration: InputDecoration(
                       labelText: 'CVC',
                       border: InputBorder.none,

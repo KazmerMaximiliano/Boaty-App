@@ -104,8 +104,9 @@ class _ToCarouselState extends State<_ToCarousel> {
   void initState() {
     super.initState();
   
-    like = widget.list[0].favourite;
+    like = widget.list.isNotEmpty ? widget.list[0].favourite : false;
   }
+
 
   @override
   Widget build(BuildContext context) {

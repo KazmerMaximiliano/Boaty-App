@@ -27,9 +27,7 @@ class MyApp extends StatelessWidget {
       initialRoute: BoatyRoutes.initialRoute,
       routes: BoatyRoutes.routes,
       scaffoldMessengerKey: NotificationsService.messagerKey,
-      localizationsDelegates: [
-        GlobalMaterialLocalizations.delegate
-      ],
+      localizationsDelegates: GlobalMaterialLocalizations.delegates,
       supportedLocales: [
         const Locale('es')
       ],
