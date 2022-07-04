@@ -2,10 +2,18 @@
 
 ![](/md_assets/portada.png)
 
+---
+
 ## Índice
 
-- [Funcionalidades](#funcionalidades)
-  - [Estados](#estados)
+- [Introducción](#introducción)
+- [Instalación](#instalacion)
+  - [Flutter](#flutter)
+  - [Aplicación](#aplicación)
+- [Configuración](#configuracion)
+- [Producción](#producción)
+  - [Android](#android)
+  - [iOS](#iOS)
 - [Manual](#manual)
   - [Dueños](#dueños)
     - [Registro](#registro)
@@ -20,50 +28,69 @@
     - [Cancelación](#cancelación)
     - [Pagos](#pagos)
     - [Calificaciones](#calificaciones)
-- [Errores](#errores)
-  - [Reportes](#reportes)
 
-## Funcionalidades
+---
 
-| Función                                                                  | Estado                   |                                                                                                                           Comentarios                                                                                                                            |
-| :----------------------------------------------------------------------- | :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Registro                                                                 | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Inicio de sesion con correo electrónico                                  | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Registro de usuario en stripe                                            | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Registro de datos relacionados con cripto monedas                        | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Listado de botes                                                         | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Busqueda de bote                                                         | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Marcar/desmarcar botes como favoritos                                    | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Listar botes favoritos                                                   | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Detalles del bote                                                        | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Formulario para agregar botes, se incluyen datos generales, mapa y fotos | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Agregar/editar disponibilidades al bote                                  | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Listado de los botes creados por el dueño                                | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Perfil del dueño del bote                                                | Finalizado               | Para la nueva versión, sería conveniente agregar en esta pantalla la visualización de los datos relacionados con la facturación y reservas del dueño, en esta versión no se implementó por el tiempo de desarrollo y por la falta de diseño de algunas pantallas |
-| Ayuda y preguntas frecuentes                                             | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Cambiar de un cliente a dueño y visceversa                               | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Reservar botes                                                           | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Listado de reservas y estados de las mismas                              | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Cancelar reservas                                                        | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Calificar reservas                                                       | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Pagar reservas                                                           | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Pago con tarjetas                                                        | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Pago con cripto divisas                                                  | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Perfil del usuario                                                       | Finalizado               |                                                                   Faltaria agregar información adicional en una futura versión, como un calendario o los pagos que realizó, su historial, etc                                                                    |
-| Dashboard gestion de usuarios                                            | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Dashboard gestión de roles                                               | Finalizado               |                                                                                                                                \_                                                                                                                                |
-| Registro/Inicio de sesión con redes sociales                             | Disponible en produccion |                                                                                                                                \_                                                                                                                                |
-| Compartir bote                                                           | Disponible en producción |                                                                                            Disponible en producción ya que se requiere compartir el enlace de la app                                                                                             |
-| Pago con transferencias                                                  | En revisión              |                                            Debido a los cambios recientes de Stripe, esta funcionalidad se encuentra en revisión, principalmente en el arena de los bancos internacionales (fuera de estados unidos)                                             |
-| Dashboard gestión de pagos                                               | En revisión              |                                                                                                                                \_                                                                                                                                |
-| Registro de usuario en Stripe desde la app                               | Cancelado                |                                                     Debido a los recientes cambios en stripe y a una alta complejidad en las validaciones de los datos a enviar, se ha decidido cancelar esta funcionalidad                                                      |
+## Introducción
 
-### Estados
+Boaty es un aplicación destina a al alquiler de embarcaciones bajo demanda.
+Esta principalmente desarrollada con flutter desde el frontend y con laravel desde el backend.
 
-- Finalizado: La funcionalidad está completa e implementada en la actual versión de la aplicación.
-- Disponible en producción: La funcionalidad está completa pero se implementara en una futura versión de la aplicación.
-- En revisión: La funcionalidad está completa pero necesita revisión.
-- Cancelada: por diferentes motivos, la funcionalidad no se ha implementado y no se planea implementar.
+## Instalación
+
+#### Flutter
+
+[Instalar flutter y los entornos de desarrollo necesarios](https://docs.flutter.dev/get-started/install)
+
+#### Aplicación
+
+Una vez finalizada la instalación de Flutter, se puede proceder con la instalación de la aplicación.
+
+Primero, instalamos las dependecias de la aplicación:
+
+```
+flutter pub get
+```
+
+Si estamos trabajando en iOS, tambien sera necesario instalar las dependecias de iOS
+
+```
+cd ios && pod install
+```
+
+Para finalizar, podra ejecutar su aplicación tanto en android como en iOS como en Android con el siguiente comando:
+
+```
+flutter run
+```
+
+Sin embargo recomendamos usar las herramientas de desarrollo para flutter integradas en VsCode.
+
+[Instalar las herramientas de desarrollo para flutter integradas en VsCode](https://docs.flutter.dev/development/tools/vs-code)
+
+---
+
+## Configuración
+
+Para ejecutar la aplicación de forma correcta, sera necesario copiar el contenido del archivo
+".env.example" en un un nuevo archivo nombrado ".env" y completar los varoles de las variables
+de entorno del mismo.
+
+URL => Hace referencia a la Api/Url a la cual se consultara la información de la aplicación.
+
+ASSETS_URL => Hace referencia a la Api/Url a la cual se consultara la información de las imagenes de la aplicación. Suele ser la misma que la URL, solo que sin la terminación "/api".
+
+---
+
+## Producción
+
+IMPORTANTE: Para la compilación de la aplicación en producción para android, los archivos de firma de app ya se encuentran genrados y estan en la carpeta android/app.
+
+#### [Android](https://docs.flutter.dev/deployment/android)
+
+#### [iOS](https://docs.flutter.dev/deployment/ios)
+
+---
 
 ## Manual
 
@@ -183,17 +210,3 @@ IMPORTANTE para esta versión de prueba, si elige la opción de pagar con tarjet
 Para calificar una reserva, tan solo tiene que tocar el botón “calificar” una vez haya pagado la misma. A continuación aparecerá una alerta solicitando su calificación, la misma impacta directamente en el bote asociado a esta y será de ayuda para otros usuarios.
 
 ![](/md_assets/imagen_19.png)
-
-## Errores
-
-- Errores funcionales: Si se presentan errores en la funcionalidad de la app que impidan o modifiquen directamente su funcionamiento, por favor reportarlos acompañados de la lista de pasos a seguir para reproducirlos. Si se pueden acompañar con capturas de pantallas mucho mejor. Estos errores tendrán prioridad alta.
-
-- Errores gráficos: Los errores gráficos por lo general se presentan en dispositivos de gama más baja, ya que todo el desarrollo de la aplicacions se centralizó para dispositivos con pantallas de 5.5 en adelante, por lo que pueden aparecer elementos superpuestos o elementos que no pertenecen al diseño, para reportarlos acompañarlos si o si de capturas de pantalla además de la resolución de la pantalla del celular o en su defecto marca y modelo. Estos errores tendrán prioridad media.
-
-- Modificaciones gráficas o de diseño: Los reportes sobre el diseño que no son errores en sí mismo, como por ejemplo, modificación del tamaño, color, orientación, etc de diferentes elementos, serán considerados como modificaciones gráficas y tendrán una prioridad baja. Acompañar estos reportes con capturas de pantalla e instrucciones de que es lo que se desea modificar y de qué forma.
-
-### Reportes
-
-| Reporte       | Descripcion                                       | Estado        |
-| :------------ | :------------------------------------------------ | :------------ |
-| Cancelaciones | El botón de cancelar reservas no cancela la misma | En desarrollo |

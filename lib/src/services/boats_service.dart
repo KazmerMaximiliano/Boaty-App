@@ -21,11 +21,12 @@ class BoatsService extends ChangeNotifier {
 
     if (resp.statusCode == 200) {
       final decodedData = json.decode(resp.body);
-      print(decodedData);
       final List<Bote> arrayData = [];
 
-      decodedData['data'].forEach((element) => {
-        arrayData.add(new Bote.fromJson(element))
+      decodedData['data'].forEach((element) {
+        Bote bote = new Bote.fromJson(element);
+        print(bote.fotos![0].url);
+        arrayData.add(bote);
       });
 
       return arrayData;

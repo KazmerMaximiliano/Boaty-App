@@ -35,7 +35,8 @@ class _LoginPageBodyState extends State<_LoginPageBody> {
     _buttons = [
       _button(LoginMethods.apple),
       _button(LoginMethods.facebook),
-      _button(LoginMethods.google),
+      // TODO: Comente google para apple porque no me deja acceder a la información de la cuenta.
+      // _button(LoginMethods.google),
       _button(LoginMethods.email),
     ];
   }
@@ -160,7 +161,7 @@ class _LoginPageBodyState extends State<_LoginPageBody> {
         titulo = "Correo Electrónico";
         break;
       case LoginMethods.apple:
-        titulo = "Apple ID";
+        titulo = "Apple";
         break;
     }
     return titulo;

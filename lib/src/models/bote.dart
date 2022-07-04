@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:boaty/src/globals/colors/boaty_colors.dart';
 import 'package:boaty/src/globals/styles/styles.dart';
 import 'package:boaty/src/models/foto.dart';
@@ -39,10 +41,22 @@ class Bote {
   factory Bote.fromJson(json) {
     List<Foto> _fotos = [];
     
-    json['gallery']!.forEach((f) {
-      f['favourite'] = json['favourite'];
-      _fotos.add(Foto.fromJson(f));
-    });
+    if (json['gallery'].isNotEmpty) {
+      json['gallery']!.forEach((f) {
+        f['favourite'] = json['favourite'];
+        _fotos.add(Foto.fromJson(f));
+      });
+    } else {
+      Map<String, dynamic> placeholderImage = {
+        "path": "/img/boaty_boat.png",
+        "favourite": false,
+        "boat_id": json['id']
+      };
+
+      _fotos.add(Foto.fromJson(placeholderImage));
+    }
+
+    
 
     return Bote(
       id: json['id'],

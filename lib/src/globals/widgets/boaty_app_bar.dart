@@ -61,7 +61,7 @@ class _BoatyAppBarState extends State<BoatyAppBar> {
             children: [
               Icon(
                 Icons.arrow_back_ios_rounded,
-                size: Styles.texts.fontSizeByWidth(context, 30),
+                size: Styles.texts.fontSizeByWidth(context, 10),
               ),
               SizedBox(width: 4),
               Text("Volver"),
