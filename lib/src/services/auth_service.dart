@@ -1,16 +1,15 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 
 import 'package:boaty/src/models/user.dart';
+import 'package:boaty/src/services/services.dart';
+import 'package:device_info/device_info.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:boaty/src/services/services.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:device_info/device_info.dart';
-
 import 'package:http/http.dart' as http;
 import 'package:the_apple_sign_in/the_apple_sign_in.dart';
 
@@ -50,7 +49,7 @@ class AuthService extends ChangeNotifier {
     };
 
     final resp = await http.post(url, body: body, headers: headers);
-    
+
     if (resp.statusCode == 201) {
       await this.login(email, password);
       return null;
@@ -73,7 +72,7 @@ class AuthService extends ChangeNotifier {
 
     final resp = await http.post(url, body: body, headers: headers);
 
-    if(resp.statusCode == 200) {
+    if (resp.statusCode == 200) {
       await storage.write(key: 'token', value: resp.body);
       _prefs.logged = true;
       await this.user();
@@ -86,13 +85,13 @@ class AuthService extends ChangeNotifier {
 
   Future<String?> loginWithGoogle() async {
     GoogleSignInAccount? googleSignInAccount = await _googleSignIn.signIn();
-    GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount!.authentication;
+    GoogleSignInAuthentication googleSignInAuthentication =
+        await googleSignInAccount!.authentication;
 
     var credential = GoogleAuthProvider.credential(
         idToken: googleSignInAuthentication.idToken,
-        accessToken: googleSignInAuthentication.accessToken
-    );
-    
+        accessToken: googleSignInAuthentication.accessToken);
+
     await _auth.signInWithCredential(credential);
 
     String? token = googleSignInAuthentication.accessToken;
@@ -113,7 +112,7 @@ class AuthService extends ChangeNotifier {
       await this.user();
       return null;
     } else {
-       _prefs.logged = false;
+      _prefs.logged = false;
       return 'Los datos son incorrectos';
     }
   }
@@ -121,28 +120,27 @@ class AuthService extends ChangeNotifier {
   Future<String?> loginWithFacebook() async {
     final LoginResult result = await FacebookAuth.instance.login();
     if (result.status == LoginStatus.success) {
-        final String token = result.accessToken!.token;
-        String deviceName = await getDeviceInfo();
-      
+      final String token = result.accessToken!.token;
+      String deviceName = await getDeviceInfo();
 
-        final Map<String, dynamic> body = {
-          'token': token,
-          'device_name': deviceName,
-        };
+      final Map<String, dynamic> body = {
+        'token': token,
+        'device_name': deviceName,
+      };
 
-        final url = Uri.parse("$_baseUrl/auth/facebook");
+      final url = Uri.parse("$_baseUrl/auth/facebook");
 
-        final resp = await http.post(url, body: body);
+      final resp = await http.post(url, body: body);
 
-        if (resp.statusCode == 200) {
-          await storage.write(key: 'token', value: resp.body);
-          _prefs.logged = true;
-          await this.user();
-          return null;
-        } else {
-          _prefs.logged = false;
-          return 'Los datos son incorrectos';
-        }
+      if (resp.statusCode == 200) {
+        await storage.write(key: 'token', value: resp.body);
+        _prefs.logged = true;
+        await this.user();
+        return null;
+      } else {
+        _prefs.logged = false;
+        return 'Los datos son incorrectos';
+      }
     }
 
     return 'Ha ocurrido un error';
@@ -150,20 +148,20 @@ class AuthService extends ChangeNotifier {
 
   Future<String?> loginWithApple() async {
     final AuthorizationResult result = await TheAppleSignIn.performRequests([
-        AppleIdRequest(requestedScopes: [Scope.email, Scope.fullName])
+      AppleIdRequest(requestedScopes: [Scope.email, Scope.fullName])
     ]);
 
     switch (result.status) {
       case AuthorizationStatus.authorized:
-        if(result.credential!.email == null) {
+        if (result.credential!.email == null) {
           return "Necesitamos conocer tu Email";
         } else {
-          
           String deviceName = await getDeviceInfo();
 
           final Map<String, dynamic> body = {
             'email': result.credential!.email,
-            'name': '${result.credential!.fullName!.familyName} ${result.credential!.fullName!.givenName}',
+            'name':
+                '${result.credential!.fullName!.familyName} ${result.credential!.fullName!.givenName}',
             'device_name': deviceName,
           };
 
@@ -177,11 +175,10 @@ class AuthService extends ChangeNotifier {
             await this.user();
             return null;
           } else {
-             _prefs.logged = false;
+            _prefs.logged = false;
             return 'Ha ocurrido un error inesperado';
           }
         }
-        
 
       case AuthorizationStatus.error:
         return 'Ha fallado la autenticación';
@@ -201,7 +198,7 @@ class AuthService extends ChangeNotifier {
 
     final resp = await http.get(url, headers: headers);
 
-    if(resp.statusCode == 200) {
+    if (resp.statusCode == 200) {
       _prefs.user = resp.body;
       return null;
     } else {
@@ -210,7 +207,7 @@ class AuthService extends ChangeNotifier {
     }
   }
 
- Future<String?> updateAccount(
+  Future<String?> updateAccount(
     String firstName,
     String lastName,
     String phone,
@@ -237,7 +234,7 @@ class AuthService extends ChangeNotifier {
     };
 
     final resp = await http.post(url, body: body, headers: headers);
-    
+
     if (resp.statusCode == 200) {
       await this.user();
       return null;
@@ -245,18 +242,18 @@ class AuthService extends ChangeNotifier {
       return 'Los datos ingresados son incorrectos';
     }
   }
-  
+
   Future user() async {
     final token = await readToken();
     final url = Uri.parse("$_baseUrl/user");
     final Map<String, String> headers = {"Authorization": "Bearer $token"};
 
     final resp = await http.get(url, headers: headers);
-    
-    if(resp.statusCode == 200) {
+
+    if (resp.statusCode == 200) {
       _prefs.user = resp.body;
-       final BoatyUser user = BoatyUser.fromJson(json.decode(_prefs.user));
-       _prefs.adminView = user.roles!.contains('owner');
+      final BoatyUser user = BoatyUser.fromJson(json.decode(_prefs.user));
+      _prefs.adminView = user.roles!.contains('owner');
       return null;
     } else {
       _prefs.logged = false;
@@ -271,11 +268,11 @@ class AuthService extends ChangeNotifier {
 
   Future<String> readStateUser() async {
     final token = await this.readToken();
-  
-    if(token != '') {
+
+    if (token != '') {
       final BoatyUser user = BoatyUser.fromJson(json.decode(_prefs.user));
 
-      if(user.roles!.contains('owner') && !user.roles!.contains('admin')) {
+      if (user.roles!.contains('owner') && !user.roles!.contains('admin')) {
         if (user.stripeId != null) {
           return 'logged';
         } else {
@@ -318,10 +315,14 @@ class AuthService extends ChangeNotifier {
 
     if (Platform.isAndroid) {
       AndroidDeviceInfo androidInfo = await deviceInfoPlugin.androidInfo;
-      deviceName = '${androidInfo.model}${androidInfo.version.toString()}${androidInfo.androidId}'.replaceAll(' ', '');
+      deviceName =
+          '${androidInfo.model}${androidInfo.version.toString()}${androidInfo.androidId}'
+              .replaceAll(' ', '');
     } else if (Platform.isIOS) {
       IosDeviceInfo iosInfo = await deviceInfoPlugin.iosInfo;
-      deviceName = '${iosInfo.model}${iosInfo.systemVersion.toString()}${iosInfo.identifierForVendor}'.replaceAll(' ', '');
+      deviceName =
+          '${iosInfo.model}${iosInfo.systemVersion.toString()}${iosInfo.identifierForVendor}'
+              .replaceAll(' ', '');
     }
 
     return deviceName;

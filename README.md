@@ -10,7 +10,7 @@
 - [Instalación](#instalacion)
   - [Flutter](#flutter)
   - [Aplicación](#aplicación)
-- [Configuración](#configuracion)
+- [Configuración](#configuración)
 - [Producción](#producción)
   - [Android](#android)
   - [iOS](#iOS)
@@ -79,6 +79,16 @@ de entorno del mismo.
 URL => Hace referencia a la Api/Url a la cual se consultara la información de la aplicación.
 
 ASSETS_URL => Hace referencia a la Api/Url a la cual se consultara la información de las imagenes de la aplicación. Suele ser la misma que la URL, solo que sin la terminación "/api".
+
+### Credenciales para la autenticación de la aplicación con google (firebase) y facebook:
+
+- email: boatyapps@gmail.com
+- password: b04tyApp?
+
+### Digital Ocean:
+
+- email: Cotaagust@gmail.com
+- password: boatyibiza2022
 
 ---
 

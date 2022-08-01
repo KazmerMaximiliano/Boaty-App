@@ -1,11 +1,10 @@
 import 'dart:io';
+
 import 'package:boaty/src/providers/botes_form_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:provider/provider.dart';
 import 'package:flutter_exif_rotation/flutter_exif_rotation.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:image_picker/image_picker.dart';
+import 'package:provider/provider.dart';
 
 class NuevoBoteFotos extends StatefulWidget {
   NuevoBoteFotos({Key? key}) : super(key: key);
@@ -98,7 +97,8 @@ class _NuevoBoteFotosState extends State<NuevoBoteFotos> {
                                   final XFile? pickedFile = await picker.pickImage(
                                     source: ImageSource.camera,
                                     maxHeight: 640, 
-                                    maxWidth: 360
+                                    maxWidth: 360,
+                                    imageQuality: 50
                                   );
                                   if (pickedFile == null) return;
                                   

@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh.apps.googleusercontent.com</string>
+	<string>693458711577-iji15q6eq4lvmp22dgvd070jbmokhdoj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh</string>
+	<string>com.googleusercontent.apps.693458711577-iji15q6eq4lvmp22dgvd070jbmokhdoj</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>240182239829-ctg0ouer0me3q2br6r8c0ijfbu940i6l.apps.googleusercontent.com</string>
+	<string>693458711577-3d4bjgrpeuh20rq1vkiv7c77v6fmof1i.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA91Dt9sFsEFhBkTykAvy4sQNNqIxTe2no</string>
+	<string>AIzaSyARiDDv2zgfD-JNFjhh2IiVhq0GW74H7Eo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>240182239829</string>
+	<string>693458711577</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.app.boaty</string>
 	<key>PROJECT_ID</key>
-	<string>boaty-b697f</string>
+	<string>boaty-20441</string>
 	<key>STORAGE_BUCKET</key>
-	<string>boaty-b697f.appspot.com</string>
+	<string>boaty-20441.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:240182239829:ios:7b2b3d0fcc810e3c766adc</string>
+	<string>1:693458711577:ios:976a16520cded11a552688</string>
 </dict>
 </plist>

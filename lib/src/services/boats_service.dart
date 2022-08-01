@@ -25,7 +25,6 @@ class BoatsService extends ChangeNotifier {
 
       decodedData['data'].forEach((element) {
         Bote bote = new Bote.fromJson(element);
-        print(bote.fotos![0].url);
         arrayData.add(bote);
       });
 
@@ -46,9 +45,8 @@ class BoatsService extends ChangeNotifier {
       final decodedData = json.decode(resp.body);
       final List<Bote> arrayData = [];
 
-      decodedData['data'].forEach((element) => {
-        arrayData.add(new Bote.fromJson(element))
-      });
+      decodedData['data']
+          .forEach((element) => {arrayData.add(new Bote.fromJson(element))});
 
       return arrayData;
     } else {
@@ -77,14 +75,12 @@ class BoatsService extends ChangeNotifier {
     final unSetUrl = Uri.parse('$_baseUrl/boat/unfavourite');
     final Map<String, String> headers = {"Authorization": "Bearer $token"};
 
-    if(like) {
-      final resp = await http.post(setUrl, headers: headers, body: {
-        'favourites_boat': id.toString()
-      });
+    if (like) {
+      final resp = await http.post(setUrl,
+          headers: headers, body: {'favourites_boat': id.toString()});
     } else {
-      final resp = await http.post(unSetUrl, headers: headers, body: {
-        'unfavourite_boat': id.toString()
-      });
+      final resp = await http.post(unSetUrl,
+          headers: headers, body: {'unfavourite_boat': id.toString()});
     }
   }
 
@@ -99,9 +95,8 @@ class BoatsService extends ChangeNotifier {
       final decodedData = json.decode(resp.body);
       final List<Bote> arrayData = [];
 
-      decodedData['data'].forEach((element) => {
-        arrayData.add(new Bote.fromJson(element))
-      });
+      decodedData['data']
+          .forEach((element) => {arrayData.add(new Bote.fromJson(element))});
 
       return arrayData;
     } else {
@@ -118,7 +113,8 @@ class BoatsService extends ChangeNotifier {
       "Authorization": "Bearer $token"
     };
 
-    final resp = await http.post(url, body: json.encode(body), headers: headers);
+    final resp =
+        await http.post(url, body: json.encode(body), headers: headers);
 
     if (resp.statusCode == 201) {
       return null;
@@ -137,9 +133,7 @@ class BoatsService extends ChangeNotifier {
     };
 
     final List<String> datesArray = [];
-    dates.forEach((e) => {
-      datesArray.add(e.toString())
-    });
+    dates.forEach((e) => {datesArray.add(e.toString())});
 
     final Map<String, dynamic> body = {
       'dates': datesArray,

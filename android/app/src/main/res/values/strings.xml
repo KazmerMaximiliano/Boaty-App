@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Boaty</string>
-    <string name="facebook_app_id">471688047759398</string>
-    <string name="fb_login_protocol_scheme">fb471688047759398</string>
-     <string name="facebook_client_token">928bdb0a648237836a1bb6e771e695be</string>
+    <string name="facebook_app_id">1421804111665071</string>
+    <string name="fb_login_protocol_scheme">fb1421804111665071</string>
+     <string name="facebook_client_token">9b1e25a5eedba7d8f0393aae753fb1b4</string>
 </resources>

@@ -36,7 +36,7 @@ class _LoginPageBodyState extends State<_LoginPageBody> {
       _button(LoginMethods.apple),
       _button(LoginMethods.facebook),
       // TODO: Comente google para apple porque no me deja acceder a la información de la cuenta.
-      // _button(LoginMethods.google),
+      _button(LoginMethods.google),
       _button(LoginMethods.email),
     ];
   }

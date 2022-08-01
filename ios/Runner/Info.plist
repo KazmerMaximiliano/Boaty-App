@@ -25,22 +25,22 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.240182239829-o8tho2dklranfmeq2qtkt9ubra84isgh</string>
+				<string>com.googleusercontent.apps.693458711577-iji15q6eq4lvmp22dgvd070jbmokhdoj</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb471688047759398</string>
+				<string>fb1421804111665071</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
-	<string>471688047759398</string>
+	<string>1421804111665071</string>
 	<key>FacebookClientToken</key>
-	<string>928bdb0a648237836a1bb6e771e695be</string>
+	<string>9b1e25a5eedba7d8f0393aae753fb1b4</string>
 	<key>FacebookDisplayName</key>
 	<string>Boaty</string>
 	<key>LSApplicationQueriesSchemes</key>
@@ -85,6 +85,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 </dict>
 </plist>
