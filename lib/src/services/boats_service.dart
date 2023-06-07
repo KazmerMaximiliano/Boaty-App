@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:boaty/src/models/bote.dart';
 import 'package:boaty/src/services/services.dart';
-import 'package:boaty/src/services/shared_prefs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;

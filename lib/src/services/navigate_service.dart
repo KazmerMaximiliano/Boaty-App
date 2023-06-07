@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
+import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
 class Nav {
   static void pushToWidget(BuildContext context, Widget route) {
@@ -12,7 +11,7 @@ class Nav {
   }
 
   static void pushIntoMenu(BuildContext context, Widget page) {
-    pushNewScreen(context, screen: page);
+    PersistentNavBarNavigator.pushNewScreen(context, screen: page);
   }
 
   // static void goToFinishRegister(
