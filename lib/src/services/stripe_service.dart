@@ -1,5 +1,4 @@
 import 'package:boaty/src/services/services.dart';
-import 'package:boaty/src/services/shared_prefs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
@@ -13,10 +12,16 @@ class StripeService extends ChangeNotifier {
   Future<String?> connectStripeAccount() async {
     final String token = await authService.readToken();
     final url = Uri.parse('$_baseUrl/connect');
-    final Map<String, String> headers = {"Authorization": "Bearer $token"};
+    final Map<String, String> headers = {
+      "Authorization": "Bearer $token",
+      "accept": "application/json"
+    };
 
     final resp = await http.get(url, headers: headers);
-    
+
+    print(resp.statusCode);
+    print(resp.body);
+
     if (resp.statusCode == 200) {
       return resp.body;
     } else {
@@ -27,7 +32,7 @@ class StripeService extends ChangeNotifier {
   void openStripeUrl(url) async {
     if (await canLaunch(url)) {
       await launch(url);
-    }    
+    }
   }
 
   Future<String?> setCryptoAddress(address, divisa) async {

@@ -112,8 +112,14 @@ class BoatsService extends ChangeNotifier {
       "Authorization": "Bearer $token"
     };
 
-    final resp =
-        await http.post(url, body: json.encode(body), headers: headers);
+    final resp = await http.post(
+      url,
+      body: json.encode(body),
+      headers: headers,
+    );
+
+    print(resp.statusCode);
+    print(resp.body);
 
     if (resp.statusCode == 201) {
       return null;
